@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* Clase para darle estilos al body */
+
+.example3 .navbar-brand {
+  height: 80px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.jumbotron-img {
+   height:15%;
+   width:15%;
+}
+
+.fondo-color { background:rgb(204,204,204);
+
+}
+
+.redes-sociales{
+	margin-top:15px;
+    text-align:right;
+}
+
+.articles {
+   margin-top:20px;
+   margin-bottom:20px;
+}
+.article { border-radius:10px;
+   border: 1px solid #ccc;
+   margin-bottom:20px;
+}
+
+.img-article { width:100%;
+   border-radius:10px 10px 0px 0px;
+}
+
+.article-body { 
+   padding:20px;
+}
+
+.title-article { 
+   margin-top:0; 
+}
+.foo {
+   margin-top:20px;
+   background-color:#f2f2f2;
+   padding:20px;    
+}
+
+.aside { 
+   border-bottom: 1px solid #ccc;
+   padding:20px;
+}
+
+.aside > h3 {
+   margin-top:0;
+}
+
+#img1 { float:right;
+   margin:20px 10px 10px 10px;
+
+}
+
+#img2 { float:left;
+   margin:20px 10px 10px 10px;
+}
+
+.form-control { 
+   margin-left:70px;
+   width:88%;
+   margin-bottom:10px;
+
+}
+
+.form-control1 {
+   margin-left: 0px;
+   width: 100%;
+   margin-bottom: 10px;
+   border-radius: 5px !important;
+}
+
+.media .avatar {
+    width: 64px;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}  
+
+.aside {
+   border-radius:10px 10px 10px 10px;   
+   background:rgb(153,153,153);
+   margin-bottom:10px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+ul { 
+   margin:0px;
+   padding:0px;
+   list-style:none;
+}
+
+.nav-justified li a:hover { background:#037E8C;
+
+}
+
+section { padding:10px;
+}
+
+@media (min-width: 400px) and (max-width: 600px) {	
+
+   .derecho {
+      display:none;
+   }
+
+    .navbar-ex2-collapse li {
+        display: inline;
+    }
+	
+    .nav-justified li { 
+	   display:block;
+       background-color:rgb(102,102,102); 
+	   text-align:center; 
+	         
+    }	
+
+    .nav-justified li a {
+       color:white;
+       text-decoration:none;
+    }
+
+    .article {
+	   margin-left:auto;
+	   margin-right:auto;
+	}
+
+    .caja { width: 90%; margin:auto;
+	   
+	}
+
+
+    .navbar-header {
+		display:block;
+		width:100%; 
+		background:#ccc;
+       
+	}	
+    .navbar-toggle. navbar-default { 
+	   display:block; 
+	   padding:20px; 
+	   background:#24959; 
+	   color:#FFF; 
+	   text-decoration:none;
+       font-weight:bold; font-size:25px;
+	}
+}
